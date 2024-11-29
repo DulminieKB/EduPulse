@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  height: 100vh;
+  background-image: url("../Images/galaxy.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.header  {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h1{
+  font-size: 70px;
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif ;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #43AACA;
+  text-align: left;
+  margin-left: -680px;
+  margin-bottom: -10px;
+  font-weight: 300px;
+  color: white;
+}
+
+.button {
+  margin: 15px;
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #43AACA;
+  border: 6px solid #1D7996;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5); 
+}
+
+.button:hover{
+  background-color: rgba(153, 160, 237, 0.5);
+  cursor: pointer;
+}
+.button a {
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+
+#user-info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #f5f5f5;
+  color : #fdfafa;
+}
+
+#username {
+  font-weight: bold;
+  color : #fdfafa;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .container {
+      background-image: url("../Images/galaxy.png");
+  }
+  
+  .button {
+    width: 180px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  
+  .button a {
+    font-size: 16px;
+  }
+}
+
+

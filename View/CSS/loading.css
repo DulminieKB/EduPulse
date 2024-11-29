@@ -1,0 +1,46 @@
+body {
+    background-image: url("../Images/load.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1{
+    font-size: 100px;
+    font-family: "Eras ITC", "Eras Light ITC", sans-serif ;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #43AACA;
+    margin-top: 100px;
+    margin-left: 160px;
+    font-weight: 300px;
+    color: white;
+}
+
+#progress-bar {
+    width: 90%;
+    height: 20px;
+    position: fixed; 
+    bottom: 50px; 
+    margin: 0 auto;
+    margin-left: 70px;
+	align-items: center;
+    justify-content: space-between;
+    background-color: #0000cd;
+}
+  
+#progress {
+    height: 20px;
+    width: 0%;
+    background-color: #000080;
+}
+
+#progress-text {
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    top: -35px; 
+    left: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: white;
+  }
+  

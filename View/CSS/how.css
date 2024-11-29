@@ -1,0 +1,130 @@
+body {
+  background-image: url("../Images/saturn.png");
+}
+
+h1{
+  font-size: 54px;
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif ;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #43AACA;
+  font-weight: 300px;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 30px;
+  color: white;
+}
+
+h2{
+  color: white;
+  font-size: 40px;
+  margin-left: 620px;
+  margin-top: -20px;
+}
+
+h3{
+  font-size: 22px;
+  text-align: left;
+  margin-left: 330px;
+}
+
+.button {
+  margin-left: 120px;
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(173, 136, 228);
+  border: 5px solid #7b4bb1;
+  border-radius: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.button:hover{
+  background-color: rgb(209, 185, 245);
+  cursor: pointer;
+}
+
+.button a {
+  font-size: 25px;
+  color: #000;
+  text-decoration: none;
+}
+
+/*Scoreboard*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+th, tr {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #eee3e3;
+}
+
+th {
+  background-color: lightskyblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #ffffff;
+}
+
+tbody {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.button2 {
+  margin-left: 120px;
+  margin-top: -700px;
+  
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(173, 136, 228);
+  border: 5px solid #7b4bb1;
+  border-radius: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.button2:hover{
+  background-color: rgb(209, 185, 245);
+  cursor: pointer;
+}
+
+.button2 a {
+  font-size: 25px;
+  color: #000;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .container {
+      background-image: url("../Images/saturn.png");
+  }
+  
+  .button {
+    margin-top: 10px;
+    width: 180px;
+    height: 50px;
+  }
+  
+  .button a {
+    font-size: 16px;
+  }
+  
+}

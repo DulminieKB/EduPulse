@@ -1,0 +1,68 @@
+/*easy,medium,hard levels*/
+
+body {
+  background-image: url("../Images/planets.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight:bold;
+  color: white;
+  align-items: center;
+  background: linear-gradient(to bottom right,  #585a5d, #2a2b2d);
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  outline: transparent;
+  margin-left: 10px;
+  padding: 0 1rem;
+  line-height: 2.5;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.topBox{
+  width: 30vw;
+  margin:auto;
+  margin-top: -2vw;
+}
+
+.lowBox{
+  margin-top: -70px;
+  margin-right: -100px;
+}
+
+h3{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: red;
+  margin-top: -50px;
+  margin-left: 40px; 
+}
+
+h1{
+  font-size: 60px;
+  font-family: "Eras ITC", "Eras Light ITC", sans-serif ;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: #43AACA;
+  font-weight: 300px;
+  text-align: right;
+  margin-top: 10px;
+  margin-right: 30px;
+  color: white;
+}
+  
+.answercheck{
+  align-items: center;
+}
+
